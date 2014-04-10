@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 1.2'
 gem "therubyracer"
 gem "less-rails" 
 gem "twitter-bootstrap-rails"
+gem 'validates_email_format_of', :git => 'git://github.com/alexdunae/validates_email_format_of.git'
 
 group :production do
 	gem 'pg'
